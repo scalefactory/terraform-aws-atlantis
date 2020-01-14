@@ -414,7 +414,7 @@ module "container_definition_github_gitlab" {
   container_memory             = var.ecs_task_memory
   container_memory_reservation = var.container_memory_reservation
 
-  command = var.command
+  command = var.atlantis_command_line
 
   port_mappings = [
     {
@@ -453,7 +453,7 @@ module "container_definition_bitbucket" {
   container_memory             = var.ecs_task_memory
   container_memory_reservation = var.container_memory_reservation
 
-  command = var.command
+  command = var.atlantis_command_line
 
   port_mappings = [
     {
