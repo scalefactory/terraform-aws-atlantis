@@ -143,6 +143,7 @@ If all provided subnets are public (no NAT gateway) then `ecs_service_assign_pub
 | certificate\_arn | ARN of certificate issued by AWS ACM. If empty, a new ACM certificate will be created and validated using Route53 DNS | string | `""` | no |
 | cidr | The CIDR block for the VPC which will be created if `vpc_id` is not specified | string | `""` | no |
 | cloudwatch\_log\_retention\_in\_days | Retention period of Atlantis CloudWatch logs | number | `"7"` | no |
+| command | Command to invoke when running the Atlantis container (as a list of command line items) | list(string) | `["server"]` | no |
 | container\_memory\_reservation | The amount of memory (in MiB) to reserve for the container | number | `"128"` | no |
 | create\_route53\_record | Whether to create Route53 record for Atlantis | bool | `"true"` | no |
 | custom\_container\_definitions | A list of valid container definitions provided as a single valid JSON document. By default, the standard container definition is used. | string | `""` | no |
