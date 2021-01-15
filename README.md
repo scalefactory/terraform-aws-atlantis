@@ -1,5 +1,13 @@
 # AWS Terraform module which runs Atlantis on AWS Fargate
 
+This is an open source project published by The Scale Factory.
+
+We currently consider this project to be hibernating.
+
+These are projects that we’re no longer prioritising, but which we keep ticking over for the benefit of the few customers we support who still use them.
+
+:information_source: We’re not regularly patching these projects, or actively watching for issues or PRs. We’ll periodically make updates or respond to contributions if one of the team has some spare time to invest.
+
 [Atlantis](https://www.runatlantis.io/) is tool which provides unified workflow for collaborating on Terraform through GitHub, GitLab and Bitbucket Cloud.
 
 This repository contains Terraform infrastructure code which creates AWS resources required to run [Atlantis](https://www.runatlantis.io/) on AWS, including:
